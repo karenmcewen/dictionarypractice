@@ -25,3 +25,14 @@ else:
 alien_0['x_position'] = alien_0['x_position'] + x_increment
 
 print(f"The alien's new x-position is: {alien_0['x_position']}")
+
+# New example - users on a website - LOOPING
+user_0 = {
+    'username':'efermi',
+    'first':'enrico',
+    'last':'fermi',
+    }
+
+for key, value in user_0.items():
+    print(f"\nKey: {key}")
+    print(f"Value: {value}")
