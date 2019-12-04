@@ -30,9 +30,21 @@ print(f"The alien's new x-position is: {alien_0['x_position']}")
 user_0 = {
     'username':'efermi',
     'first':'enrico',
-    'last':'fermi',
+    'last':'fermi', # use a comma at the end so you can add more key:value pairs to the dictionary later
     }
-
+# you can choose any name here for key, value - could use k,v or bob, sally but key,value is easiest to understand
+# this for loop will loop through all of the values in the dictionary user_0
 for key, value in user_0.items():
     print(f"\nKey: {key}")
     print(f"Value: {value}")
+
+# example favorite languages
+favorite_languages = {
+    'jen':'C',
+    'bob':'R',
+    'sally':'ruby',
+    'paul':'python',
+    }
+
+for name, language in favorite_languages.items():
+    print(f"{name.title()}'s favorite language is {language.title()}.")
