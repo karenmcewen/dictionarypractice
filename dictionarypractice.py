@@ -38,9 +38,9 @@ print(f"The alien's new x,y-position is: {alien_0['x_position']}, {alien_0['y_po
 
 # New example - users on a website - LOOPING
 user_0 = {
-    'username':'efermi',
-    'first':'enrico',
-    'last':'fermi', # use a comma at the end so you can add more key:value pairs to the dictionary later
+    'username': 'efermi',
+    'first': 'enrico',
+    'last': 'fermi',  # use a comma at the end so you can add more key:value pairs to the dictionary later
     }
 # you can choose any name here for key, value - could use k,v or bob, sally but key,value is easiest to understand
 # this for loop will loop through all of the values in the dictionary user_0
@@ -50,10 +50,10 @@ for key, value in user_0.items():
 
 # example favorite languages
 favorite_languages = {
-    'jen':'C',
-    'bob':'R',
-    'sally':'ruby',
-    'paul':'python',
+    'jen': 'C',
+    'bob': 'R',
+    'sally': 'ruby',
+    'paul': 'python',
     }
 
 for name, language in favorite_languages.items():
