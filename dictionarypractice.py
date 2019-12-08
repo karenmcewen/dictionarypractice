@@ -10,7 +10,7 @@ print(alien_0['color'])
 alien_0['x_position'] = 0
 alien_0['y_position'] = 25
 alien_0['speed'] = 'medium'
-print(f"The alien's original x-position is: {alien_0['x_position']}")
+print(f"The alien's original x,y-position is: {alien_0['x_position']}, {alien_0['y_position']}")
 
 # now let's move our alien to the right!
 if alien_0['speed'] == 'slow':
