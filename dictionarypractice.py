@@ -21,10 +21,20 @@ else:
     # alien must be fast
     x_increment = 3
 
+# now let's move our alien up!
+if alien_0['speed'] == 'slow':
+    y_increment = 1
+elif alien_0['speed'] == 'medium':
+    y_increment = 2
+else:
+    # alien must be fast
+    y_increment = 3
+
 # the new position is the old plus the increment
 alien_0['x_position'] = alien_0['x_position'] + x_increment
+alien_0['y_position'] = alien_0['y_position'] + y_increment
 
-print(f"The alien's new x-position is: {alien_0['x_position']}")
+print(f"The alien's new x,y-position is: {alien_0['x_position']}, {alien_0['y_position']}")
 
 # New example - users on a website - LOOPING
 user_0 = {
