@@ -58,3 +58,7 @@ favorite_languages = {
 
 for name, language in favorite_languages.items():
     print(f"{name.title()}'s favorite language is {language.title()}.")
+
+# loop through the dictionary in order using the sorted() function and dictionary.keys method
+for name in sorted(favorite_languages.keys()):
+    print(f"{name.title()}, thank you for taking the poll.")
