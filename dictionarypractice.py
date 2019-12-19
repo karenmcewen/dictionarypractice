@@ -54,6 +54,7 @@ favorite_languages = {
     'bob': 'R',
     'sally': 'ruby',
     'paul': 'python',
+    'eli': 'python',
     }
 
 for name, language in favorite_languages.items():
@@ -62,3 +63,13 @@ for name, language in favorite_languages.items():
 # loop through the dictionary in order using the sorted() function and dictionary.keys method
 for name in sorted(favorite_languages.keys()):
     print(f"{name.title()}, thank you for taking the poll.")
+
+# the following looks at the information stored in the dictionary but doesn't check for repeats
+print('The following languages have been mentioned:')
+for language in sorted(favorite_languages.values()):
+    print(language.title())
+
+# a set is a collection of items without repeats (each item is unique)
+print('The following languages have been mentioned:')
+for language in set(favorite_languages.values()):
+    print(language.title())
